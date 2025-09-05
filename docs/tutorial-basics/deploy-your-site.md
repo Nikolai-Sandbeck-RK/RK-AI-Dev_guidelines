@@ -86,6 +86,14 @@ GIT_USER=Nikolai-Sandbeck-RK npm run deploy
 
 Når prompten til at indtaste password viser sig i toppen af vindue i VScode, brug **PAT som adgangskode**.
 
+For at du ikke skal indtaste dit token hver gang kan du køre:
+
+```bash
+git config --global credential.helper store
+```
+
+Næste gang du deployer, vil den gemme dit token.
+
 ---
 
 ## 🌐 8. GitHub Pages aktivering
